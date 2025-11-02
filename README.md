@@ -1,6 +1,6 @@
 # ThermoMastoCrawler
 
-**ThermoMastoCrawler** 是一个面向 **[UFF Visual DMI 数据库](https://visual.ic.uff.br/dmi/)** 的医学数据采集工具，主要用于爬取乳腺疾病研究中的热成像图像及配套临床记录。项目集成了 Selenium、Requests及多线程机制，实现了结构化医学数据的自动化收集与整理。
+**ThermoMastoCrawler** 是一个面向 **[UFF Visual DMI 数据库](https://visual.ic.uff.br/dmi/)** 的数据采集工具，主要用于爬取乳腺疾病研究中的热成像图像及配套临床记录。项目集成了 Selenium、Requests及多线程机制，实现了结构化医学数据的自动化收集与整理。
 
 ## 核心功能
 
@@ -101,11 +101,18 @@ spider.run(
 
 ---
 
+## 数据使用与隐私声明
+
+本项目仅供科研、教学和个人学习用途，不得用于任何商业或临床决策目的。
+
+* 数据来源：所有数据均来自 [Universidade Federal Fluminense (UFF) Visual DMI](https://visual.ic.uff.br/dmi/) 官方公开数据库（经原网站授权访问）。
+* 隐私合规：项目未采集、保存或传播任何可识别的个人身份信息。
+* 使用责任：用户须遵守原数据源网站的访问协议与伦理声明，自行确保下载与使用行为的合法性。
+* 推荐做法：下载完成后请本地使用，不建议二次分发或在线共享原始影像文件。
+
+---
+
 ## 致谢
 
 * 感谢 [YINys](https://github.com/yysti) 提供本项目的初始代码，为后续开发与完善奠定了基础。
 * 感谢 [Universidade Federal Fluminense (UFF) Visual DMI](https://visual.ic.uff.br/dmi/) 项目组提供宝贵的医学影像数据。
-
-
-
-
